@@ -1,7 +1,9 @@
 package src;
 
 /**
- * Created by Max on 23.07.15.
+ * Components
+ * @author Max Hentschel, Felix Brass
+ *
  */
 public class Components {
     public boolean addOrder(Order ord) {

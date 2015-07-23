@@ -8,9 +8,6 @@ import static org.junit.Assert.*;
 
 /**
  * LogicTests
- */
-
-/**
  * @author Max Hentschel, Felix Brass
  *
  */

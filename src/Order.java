@@ -3,7 +3,9 @@ package src;
 import java.util.List;
 
 /**
- * Created by Max on 23.07.15.
+ * Order
+ * @author Max Hentschel, Felix Brass
+ *
  */
 public class Order {
     private Product product;

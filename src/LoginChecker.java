@@ -1,7 +1,9 @@
 package src;
 
 /**
- * Created by Max on 23.07.15.
+ * LoginChecker
+ * @author Max Hentschel, Felix Brass
+ *
  */
 public class LoginChecker {
     public LoginChecker(String testDB) {

@@ -3,7 +3,9 @@ package src;
 import java.util.Collection;
 
 /**
- * Created by Max on 23.07.15.
+ * Customer
+ * @author Max Hentschel, Felix Brass
+ *
  */
 public class Customer {
     private String adress;
