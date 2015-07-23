@@ -5,20 +5,12 @@
  */
 package com.mycompany.hotelverwaltung;
 
-import com.mycompany.hotelverwaltung.persistence.Service;
-import com.mycompany.hotelverwaltung.persistence.Room;
-import com.mycompany.hotelverwaltung.persistence.Customer;
-import com.mycompany.hotelverwaltung.persistence.Reservation;
-import com.mycompany.hotelverwaltung.persistence.RoomType;
+
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
-import javax.persistence.Query;
 import junit.framework.TestCase;
 
 /**

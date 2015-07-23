@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 
 import java.sql.Connection;
 
-import org.junit.After;
+import junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
