@@ -1,12 +1,10 @@
-import static org.junit.Assert.*;
-
-import java.sql.Connection;
-
-import junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
+import src.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import static org.junit.Assert.*;
 
 /**
  * LogicTests
@@ -39,11 +37,11 @@ public class LogicTests {
 		Order ord = new Order();
 		Product prod = new Product("Produkt");
 		ord.addProduct(prod);
-		
-		assertEquals("Valid order should submit successfully.",true, ord.submitOrder());
+
+		assertEquals("Valid order should submit successfully.", true, ord.submitOrder());
 		
 	}
-	
+
 	/**
 	 * 
 	 */
@@ -51,11 +49,13 @@ public class LogicTests {
 	public void testPriceCalculation() {
 		Product prod1 = new Product("Produkt1");
 		prod1.setPrice(11.50);
-		Product prod1 = new Product("Produkt2");
+		Product prod2 = new Product("Produkt2");
+
 		prod2.setPrice(3.99);
 		Order ord = new Order();
-		List<Product> prodList = new ArrayList<Product>;
-		prodList.add(prod1, prod2);
+		List<Product> prodList = new ArrayList<Product>();
+		prodList.add(prod2);
+		prodList.add(prod1);
 		
 		assertEquals("11.50 plus 3.99 should be 15.49", 15.49, ord.calcPrice(prodList));
 	}
@@ -171,7 +171,7 @@ public class LogicTests {
 		
 		ord1.setProduct(prod1);
 		ord1.setLocation(48.155254, 11.555678);
-		if (ord1.isInRange)	{
+		if (ord1.isInRange())	{
 			assertEquals("Revenue should be 5.50", 5.50, ord1.calcRevenue(ord1.calcTravelCost(ord1.getDistance()) - ord1.getPrice()));
 		}
 		

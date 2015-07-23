@@ -5,13 +5,10 @@
  */
 package com.mycompany.hotelverwaltung;
 
-
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
 import junit.framework.TestCase;
+
+import java.jpa.*;
+import java.util.*;
 
 /**
  *
