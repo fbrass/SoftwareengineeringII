@@ -27,7 +27,7 @@ public class LogicTests {
 	}
 	
 	/**
-	 * 
+	 * Test for order
 	 */
 	@Test
 	public void testOrder() {
@@ -40,7 +40,7 @@ public class LogicTests {
 	}
 
 	/**
-	 * 
+	 * Test for price calculation
 	 */
 	@Test
 	public void testPriceCalculation() {
@@ -58,7 +58,7 @@ public class LogicTests {
 	}
 	
 	/**
-	 * 
+	 * Test for delivery time
 	 */
 	@Test
 	public void testDeliveryTime() {
@@ -78,7 +78,7 @@ public class LogicTests {
 	}
 	
 	/**
-	 * 
+	 * Test for a route distance calculation
 	 */
 	@Test
 	public void testRouteDistance() {
@@ -94,7 +94,7 @@ public class LogicTests {
 	}
 	
 	/**
-	 * 
+	 * Test for adding components to pizza
 	 */
 	@Test
 	public void testAddingComponents() {
@@ -111,7 +111,7 @@ public class LogicTests {
 	}
 	
 	/**
-	 * 
+	 * Test for deleting comonents from a pizza
 	 */
 	@Test
 	public void testDeletingComponents() {
@@ -132,7 +132,7 @@ public class LogicTests {
 	}
 	
 	/**
-	 * 
+	 * Test for changing components of a pizza
 	 */
 	@Test
 	public void testChangeComponents() {
@@ -157,7 +157,7 @@ public class LogicTests {
 	}
 	
 	/**
-	 * 
+	 * Test for revenue calucaltion
 	 */
 	@Test
 	public void testRevenueCalculation() {
@@ -175,7 +175,7 @@ public class LogicTests {
 	}
 	
 	/**
-	 * 
+	 * Test for max Distance
 	 */
 	@Test
 	public void testDistanceMoreThan20KM() {
